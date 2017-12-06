@@ -1,0 +1,75 @@
+CEP :
+cosa è CEP ?
+UN MOTORE DI RICERCA
+
+COME ELABORARE GLI EVENTI DI CONTESTO IN TEMPO REALE :
+
+Utilizzare elaborazioni di eventi complessi,per eseguire alcune elaborazioni informazioni di contex information 
+
+con il CEP si possono rilevare i patner sopra al contexs 
+
+CEP riceve informazioni di eventi come input e genera osservazioni come eventi di output proton è un implementazione 
+del CEP
+
+TECNOLOGIA CEP 
+
+In alcuni scenari la combinazione di eventi posso essere insignificanti ,il motore di ricerca CEP è capace di trovare 
+
+combinazione di eventi significativi,il CEP rileva i pattner rispetto ai eventi in entrata ,altri strumenti posso essere
+
+utilizzati per rispondere al singolo evento ( contex Broker)
+
+RUOLO DELL'APPLICAZIONI :
+
+Un'applicazione conessa al CEP può avere diferse funzioni :
+
+Il ruolo di Event Producer è input dell'evento
+
+Il ruolo di Event Consumer è output dell'evento 
+
+un esempio può essere qualche applicazione esterna o lo stesso contex broker
+
+EVENT PRODUCER :
+
+Event Producer può fornire eventi in due maniere :
+1) Modalità PUSH :il consumer inserisce gli eventi nel CEP richamando un API REST (CONTEXBROKER)
+
+2)Modalità Mode : il consumer estrare un API REST che il CEP può richiamare ed estrarre gli eventi 
+
+EVENT CONSUMER :
+
+COSA SONO ?
+UN PUNTO DI DESTINAZIONE DEGLI EVENTI
+
+DASHBOARD : è un tipo di evento consumer che visualizza gli allarmi
+
+CONTEXT BROKER: per inoltrare gli eventi ad altri utenti
+
+il CEP consete di definire i pattner su eventi selezionati,che si verificano nei contesti di 
+
+elaborazioni degli eventi con condizioni aggiuntive e opzionali
+
+ESEMPIO DI PATTNER 
+
+BASIC TYPE : indica un evento di base ,se l'evento in entrata supera una condizione
+
+AGGREGATE TYPE : calcosa alcune funzioni di aggregazione su un insieme di eventi
+
+ABSENT TYPE :significa che nessun evento in cui si è verificata una condizione è arrivato all'interno 
+
+della finestra temporale in modo che il pattern corrisponda
+
+SEQUENCE TYPE : significa che gli eventi devono verificarsi in un ordine specificato per il pattern da rilevare
+
+ALL TYPE tutti gli eventi specificati dovrebbero arrivare affinché il modello corrisponda
+
+PROCESSING CONTEXT DEFINATION :
+
+Ogni agente di elaborazione di eventi o detto anche EPA è associato a un processing context
+
+un processing contex raggruppa/unisce le istanze  di un evento,in modo che vengano elaborate in modo correlato
+
+
+
+
+
